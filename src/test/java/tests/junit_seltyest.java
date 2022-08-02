@@ -32,7 +32,7 @@ public class junit_seltyest {
     @Test
     public void searchXPath() {
         String actualTitle;
-        driver.get("https://lenta.ru");
+        driver.get("https://reddit.com");
         actualTitle = driver.getTitle();
         Assert.assertNotNull(actualTitle);
 
